@@ -5,7 +5,7 @@
     "node": ">=20"
   },
   "homepage": "/",
-  "license": "Apache-2.0",
+  "license": "GPL-3.0",
   "name": "kzero-wallet",
   "private": true,
   "repository": {

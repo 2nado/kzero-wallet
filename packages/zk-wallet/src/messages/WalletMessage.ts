@@ -1,5 +1,5 @@
 // Copyright 2023-2024 kzero authors & contributors
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: GPL-3.0
 
 import { u8aToHex } from '@polkadot/util';
 import { blake2AsU8a, ed25519PairFromRandom } from '@polkadot/util-crypto';

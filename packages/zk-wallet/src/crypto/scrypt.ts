@@ -1,5 +1,5 @@
 // Copyright 2023-2024 kzero authors & contributors
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: GPL-3.0
 
 import { scrypt } from '@noble/hashes/scrypt';
 import { bnToU8a, u8aConcat, u8aToBn } from '@polkadot/util';

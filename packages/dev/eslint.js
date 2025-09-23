@@ -1,7 +1,8 @@
 // Copyright 2023-2024 kzero authors & contributors
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: GPL-3.0
 
 import js from '@eslint/js';
+import { defineConfig } from 'eslint/config';
 import headers from 'eslint-plugin-headers';
 import importPlugin from 'eslint-plugin-import';
 import prettier from 'eslint-plugin-prettier/recommended';
@@ -12,7 +13,7 @@ import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config(
+export default defineConfig(
   { ignores: ['dist/*', 'build/*', '**/dist/*', '**/build/*', '.turbo/*', '**/.turbo'] },
   {
     extends: [
@@ -97,7 +98,7 @@ export default tseslint.config(
         {
           source: 'string',
           style: 'line',
-          content: 'Copyright {startYear}-{endYear} kzero authors & contributors\nSPDX-License-Identifier: Apache-2.0',
+          content: 'Copyright {startYear}-{endYear} kzero authors & contributors\nSPDX-License-Identifier: GPL-3.0',
           trailingNewlines: 2,
           variables: {
             startYear: '2023',

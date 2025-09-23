@@ -5,7 +5,7 @@
     "node": ">=20"
   },
   "homepage": "https://github.com/kzero-xyz/kzero-wallet/tree/master/packages/dev#readme",
-  "license": "Apache-2.0",
+  "license": "GPL-3.0",
   "private": true,
   "repository": {
     "directory": "packages/dev",

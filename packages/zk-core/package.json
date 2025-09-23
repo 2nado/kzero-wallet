@@ -4,7 +4,7 @@
   "contributors": [],
   "description": "kzero zk core",
   "homepage": "https://github.com/kzero-xyz/kzero-wallet/tree/master/packages/zk-core#readme",
-  "license": "Apache-2.0",
+  "license": "GPL-3.0",
   "maintainers": [],
   "name": "@kzero/zk-core",
   "repository": {

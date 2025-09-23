@@ -1,5 +1,5 @@
 // Copyright 2023-2024 kzero authors & contributors
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: GPL-3.0
 
 export function getBestForegroundColor(bgColor: string): string {
   let r: number, g: number, b: number;
