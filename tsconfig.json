@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./example/tsconfig.json" },
+    { "path": "./example-wallet/tsconfig.json" },
+    { "path": "./packages/zk-core/tsconfig.json" },
+    { "path": "./packages/zk-react/tsconfig.json" },
+    { "path": "./packages/zk-wallet/tsconfig.json" }
+  ]
+}

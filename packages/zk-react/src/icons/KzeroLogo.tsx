@@ -1,0 +1,20 @@
+// Copyright 2023-2024 kzero authors & contributors
+// SPDX-License-Identifier: Apache-2.0
+
+function KzeroLogo({ style }: { style?: React.CSSProperties }) {
+  return (
+    <svg xmlns='http://www.w3.org/2000/svg' width='500' height='500' viewBox='0 0 500 500' fill='none' style={style}>
+      <circle cx='250' cy='250' r='250' fill='black' />
+      <rect x='60' y='179.302' width='141.395' height='141.395' fill='white' />
+      <circle cx='360.465' cy='250' r='79.5349' fill='white' />
+      <path
+        fillRule='evenodd'
+        clipRule='evenodd'
+        d='M245.581 179.302H272.093L236.744 250.707L272.093 320.698H245.581L210.232 250.707L245.581 179.302Z'
+        fill='white'
+      />
+    </svg>
+  );
+}
+
+export default KzeroLogo;

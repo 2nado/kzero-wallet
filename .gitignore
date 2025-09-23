@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+node_modules
+.DS_Store
+.cache
+dist
+dist-ssr
+build
+*.local
+.eslintcache
+coverage
+.nyc_output
+.stylelintcache
+cypress/videos
+*.tsbuildinfo
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+
+# turbo
+.turbo
+packages/**/.turbo

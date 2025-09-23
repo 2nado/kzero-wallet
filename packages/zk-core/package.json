@@ -1,0 +1,39 @@
+{
+  "author": "kzero",
+  "bugs": "https://github.com/kzero-xyz/kzero-wallet/issues",
+  "contributors": [],
+  "description": "kzero zk core",
+  "homepage": "https://github.com/kzero-xyz/kzero-wallet/tree/master/packages/zk-core#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@kzero/zk-core",
+  "repository": {
+    "directory": "packages/zk-core",
+    "type": "git",
+    "url": "https://github.com/kzero-xyz/kzero-wallet.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.0.0",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "@kzero/source": "./src/index.ts",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./constants": {
+      "@kzero/source": "./src/constants.ts",
+      "import": "./dist/constants.js",
+      "types": "./dist/constants.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "check-types": "tsc --noEmit",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@polkadot/util": "^13.3.1"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "author": "kzero",
+  "bugs": "https://github.com/kzero-xyz/kzero-wallet/issues",
+  "contributors": [],
+  "description": "kzero zk react",
+  "homepage": "https://github.com/kzero-xyz/kzero-wallet/tree/master/packages/zk-react#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@kzero/zk-react",
+  "repository": {
+    "directory": "packages/zk-react",
+    "type": "git",
+    "url": "https://github.com/kzero-xyz/kzero-wallet.git"
+  },
+  "sideEffects": ["*.css", "dist/style.css"],
+  "type": "module",
+  "version": "0.0.0",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "@kzero/source": "./src/index.ts",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./defaults": {
+      "@kzero/source": "./src/defaults.ts",
+      "import": "./dist/defaults.js",
+      "types": "./dist/defaults.d.ts"
+    },
+    "./ThemeProvider": {
+      "@kzero/source": "./src/ThemeProvider.ts",
+      "import": "./dist/ThemeProvider.js",
+      "types": "./dist/ThemeProvider.d.ts"
+    },
+    "./providers": {
+      "@kzero/source": "./src/providers/index.ts",
+      "import": "./dist/providers/index.js",
+      "types": "./dist/providers/index.d.ts"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "check-types": "tsc --noEmit",
+    "build:tsc": "tsc",
+    "dev": "rollup -c --watch"
+  },
+  "peerDependencies": {
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "dependencies": {
+    "@kzero/zk-core": "workspace:*",
+    "@polkadot/util-crypto": "^13.3.1",
+    "input-otp": "^1.4.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@rollup/plugin-url": "^8.0.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "rollup": "^4.52.2",
+    "rollup-plugin-dts": "^6.2.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1"
+  }
+}
