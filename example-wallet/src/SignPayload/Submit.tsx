@@ -92,7 +92,13 @@ function Submit({ api, method, address }: { api: ApiPromise; method: string; add
         proof
       );
 
-      const tx = api.tx.zkLogin.submitZkloginUnsigned(uxt.toU8a(), zkAddress, zkMaterial);
+      const tx = api.tx.zkLogin.submitZkloginUnsigned(
+        api.createType('Bytes', uxt),
+        api.createType('MultiAddress', {
+          Id: zkAddress
+        }),
+        zkMaterial
+      );
 
       window.parent.postMessage(
         { type: 'sign-success', signedTransaction: tx.toHex(), signature: tx.signature.toString() },
