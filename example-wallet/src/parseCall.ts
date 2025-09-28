@@ -44,7 +44,7 @@ export const prepareCall = async (
       provider: jwkProvider,
       kid: kid,
       inputs: inputs,
-      ephkey_expire_at: maxEpoch
+      ephkey_expire_at: api.createType('u64', maxEpoch)
     }
   });
   const { nonce }: any = await api.query.system.account(zkAddress);

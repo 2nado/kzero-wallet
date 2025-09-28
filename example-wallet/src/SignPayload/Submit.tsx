@@ -93,7 +93,7 @@ function Submit({ api, method, address }: { api: ApiPromise; method: string; add
       );
 
       const tx = api.tx.zkLogin.submitZkloginUnsigned(
-        api.createType('Bytes', uxt),
+        api.createType('Bytes', uxt.toU8a()),
         api.createType('MultiAddress', {
           Id: zkAddress
         }),
