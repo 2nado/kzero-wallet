@@ -50,7 +50,7 @@ kzero-wallet/
 │ core   │ │ port       │  │ libraries│
 └────────┘ └────────────┘  └──────────┘
 ```
-> To find more about the Project Arch, please refer to [KZero Wallet SDK - Technical Documentation](https://github.com/kzero-xyz/kzero-grant-docs/blob/main/kzero-wallet-sdk.md)
+> To find more about the Project Arch, please refer to [KZero Wallet SDK - Technical Documentation](./docs/kzero-wallet-sdk.md)
 ## Quick Start
 
 ### Prerequisites
@@ -143,7 +143,7 @@ See `apps/playground` for complete integration examples.
 - `pnpm test:cov` - Generate coverage reports
 - `pnpm lint` - Run ESLint
 - `pnpm check-types` - Run TypeScript type checking
-> To find more details about the testing, please check [kzero-wallet-test-guide.md](https://github.com/kzero-xyz/kzero-grant-docs/blob/main/kzero-wallet-test-guide.md)
+> To find more details about the testing, please check [kzero-wallet-test-guide.md](./docs/kzero-wallet-test-guide.md)
 ### Other
 - `pnpm commit` - Create conventional commit with Commitizen
 
