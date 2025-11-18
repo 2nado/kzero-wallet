@@ -304,7 +304,7 @@ pnpm --filter @kzero/zk-react check-types
 - **Kzero Wallet SDK - Technical Documentation**: [KZero Wallet SDK - Technical Documentation](./docs/kzero-wallet-sdk.md)
 - **Kzero Wallet Testing Guide**: [Testing Guide for Kzero Wallet SDK](./docs/kzero-wallet-test-guide.md)
 - **KZero Article**: [Kzero Overview](./docs/kzero-article.md)
-- **Docker Tutorial**: [Docker Tutorial: Running Kzero Full Stack Locally](https://github.com/kzero-xyz/kzero-grant-docs/blob/main/m4-docker-tutorial.md)
+- **Docker Tutorial**: [Docker Tutorial: Running Kzero Full Stack Locally](./docs/kzero-docker-tutorial.md)
 
 ### Related Services
 - **Kzero Service**: [Authentication Service](https://github.com/kzero-xyz/kzero-service/tree/feature/auth-server)
